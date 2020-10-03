@@ -1,0 +1,100 @@
+body{
+    margin: 3% 20% 0% 20%;
+}
+header{
+    background-color: lightgray;
+}
+td{
+    text-align: center;
+    padding-right: 30px;
+}
+#Mainmap{
+    margin: 0% 20% 0% 20%;
+}
+#profile{
+    border-radius: 20px;
+}
+.secimg{
+    float: left;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+.seched{
+   color: rgb(24, 5, 105);
+   font-weight: bold;
+   font-size: 110%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration-line: unset;
+    text-decoration: none;
+}   
+#EP body::after{
+    content: "";
+  background: url(images/eastrenprovince.jpg);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+#MK body::after{
+    content: "";
+    background: url(images/makkah.jpg);
+    opacity:0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+#RD body::after{
+    content: "";
+    background: url(images/riyadh.png);
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+main div img{
+    float: left; /*to make the image aligned beside text*/
+    margin-right: 2%;
+    border-radius: 5px;
+}
+main div p{
+   font-size: 110%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sign body{
+    background-color: rgba(142, 216, 226,0.3) ;
+}
+.sign main{
+    text-align: left;
+    margin: 20% 25% 10% 25%;
+    background-color: rgba(45, 172, 189,0.7);
+    padding: 2% 3%;
+}
+.sign h2{
+    padding-top: 5%;
+    padding-right: 5%;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: fantasy;
+    color: rgb(8, 2, 39);
+    display: inline;
+}
+.sign input{
+  float: right;
+}
+footer{
+    background-color: rgba(184, 185, 185,0.55);
+    border-radius: 10%;
+    margin-right: 90%;
+    padding: 1%;
+}
